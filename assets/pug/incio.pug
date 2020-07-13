@@ -1,0 +1,18 @@
+extend plantilla.pug
+block contenidos
+    .container
+        .title 
+            h1.title__game Patron de color
+        section.section
+            +juego('purple', 'section__purple', 'purple')
+            +juego('cyan', 'section__cyan', 'cyan')
+            +juego('green', 'section__green', 'green')
+            +juego('yellow', 'section__yellow', 'yellow')
+            button(id="btnEmpezar" class="btn-start" onclick="empezarJuego()") Empezar a jugar!
+        .footer
+            h2(id="result" class="footer__result")
+            .footer__copywrite Creado por Agustin Mites 2020
+    script(src="./assets/js/juego.js")
+
+
+

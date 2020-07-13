@@ -1,0 +1,25 @@
+$color-purple: #4C48D9;
+$color-cyan: #66A3D9;
+$color-green: #1BA673;
+$color-yellow: #F2BB13;
+$color-black: #494C50;
+$color-white: #fff;
+
+@mixin font-primary($fuente) {
+    @if $fuente=="titulo" {
+        color: $color-white;
+        text-transform: uppercase;  
+    } @else{
+        color: $color-black;
+        font-weight: 100;
+    }
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+@mixin background-color {
+    background: linear-gradient(
+                        lighten($color-cyan,5),
+                        darken($color-cyan,5)
+    );
+}

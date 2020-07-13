@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#7aafde, #5297d4);
+}
+.title__game {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+
+.section {
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  max-height: 60vh;
+  max-width: 60vh;
+}
+.section__purple {
+  height: 50%;
+  width: 50%;
+  display: block;
+  display: inline-block;
+  float: left;
+  background-color: #4C48D9;
+}
+.section__cyan {
+  height: 50%;
+  width: 50%;
+  display: block;
+  display: inline-block;
+  float: left;
+  background-color: #66A3D9;
+}
+.section__green {
+  height: 50%;
+  width: 50%;
+  display: block;
+  display: inline-block;
+  float: left;
+  background-color: #1BA673;
+}
+.section__yellow {
+  height: 50%;
+  width: 50%;
+  display: block;
+  display: inline-block;
+  float: left;
+  background-color: #F2BB13;
+}
+
+.btn-start {
+  width: 300px;
+  height: 75px;
+  background: #fff;
+  color: #494C50;
+  font-size: 2rem;
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 150px);
+  border: 0px;
+  border-radius: 12px;
+  outline: none;
+}
+.btn-start:hover {
+  background-color: #9f9ceb;
+  color: white;
+  transition: 0.5s ease-in-out;
+  transform: scale3d(1.2, 1.2, 1.2);
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.footer {
+  height: 50px;
+  background-color: #ededed;
+  color: #494C50;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+.footer__result {
+  background-color: #1BA673;
+  margin: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+.footer__copywrite {
+  text-align: center;
+  padding: 5px;
+  font-size: 12px;
+}

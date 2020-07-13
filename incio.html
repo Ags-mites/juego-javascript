@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Videojuego</title>
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&amp;display=swap">
+  </head>
+  <body>
+    <div class="container">
+      <div class="title"> 
+        <h1 class="title__game">Patron de color</h1>
+      </div>
+      <section class="section">
+        <div class="section__purple" id="purple" data-color="purple"></div>
+        <div class="section__cyan" id="cyan" data-color="cyan"></div>
+        <div class="section__green" id="green" data-color="green"></div>
+        <div class="section__yellow" id="yellow" data-color="yellow"></div>
+        <button class="btn-start" id="btnEmpezar" onclick="empezarJuego()">Empezar a jugar!</button>
+      </section>
+      <div class="footer">
+        <h2 class="footer__result" id="result"></h2>
+        <div class="footer__copywrite">Creado por Agustin Mites 2020</div>
+      </div>
+    </div>
+    <script src="./assets/js/juego.js"></script>
+  </body>
+</html>
