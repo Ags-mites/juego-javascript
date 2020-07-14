@@ -41,12 +41,18 @@ body {
   float: left;
   background-color: #4C48D9;
 }
+.section__purple.light {
+  background-color: #b3b2ef;
+}
 .section__cyan {
   height: 50%;
   width: 50%;
   display: block;
   float: left;
   background-color: #66A3D9;
+}
+.section__cyan.light {
+  background-color: #cce0f2;
 }
 .section__green {
   height: 50%;
@@ -55,12 +61,18 @@ body {
   float: left;
   background-color: #1BA673;
 }
+.section__green.light {
+  background-color: #5ce4b2;
+}
 .section__yellow {
   height: 50%;
   width: 50%;
   display: block;
   float: left;
   background-color: #F2BB13;
+}
+.section__yellow.light {
+  background-color: #f9de8c;
 }
 
 .btn-start {
